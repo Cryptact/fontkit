@@ -1,6 +1,6 @@
 {
-  "name": "@pdf-lib/fontkit",
-  "version": "1.1.0",
+  "name": "@cryptact/fontkit",
+  "version": "1.2.0",
   "description": "An advanced font engine for Node and the browser",
   "main": "dist/fontkit.umd.js",
   "unpkg": "dist/fontkit.umd.min.js",
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hopding/fontkit.git"
+    "url": "git://github.com/Cryptact/fontkit.git"
   },
   "keywords": [
     "opentype",
@@ -68,12 +68,9 @@
     "layout"
   ],
   "author": "Andrew Dillon <andrew.dillon.j@gmail.com>",
-  "contributors": [
-    "Devon Govett <devongovett@gmail.com> (http://badassjs.com/)"
-  ],
   "bugs": {
-    "url": "https://github.com/Hopding/fontkit/issues"
+    "url": "https://github.com/Cryptact/fontkit/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Hopding/fontkit"
+  "homepage": "https://github.com/Cryptact/fontkit"
 }
