@@ -21,6 +21,6 @@ jobs:
         run: yarn make
 
       - name: Release latest
-        run: yarn releaseLatest
+        run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

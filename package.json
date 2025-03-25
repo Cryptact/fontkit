@@ -1,6 +1,6 @@
 {
   "name": "@cryptact/fontkit",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An advanced font engine for Node and the browser",
   "main": "dist/fontkit.umd.js",
   "unpkg": "dist/fontkit.umd.min.js",
@@ -10,7 +10,8 @@
     "make": "node Makefile.js",
     "clean": "node Makefile.js clean",
     "test": "MODULE_TYPE=commonjs mocha",
-    "coverage": "cross-env BABEL_ENV=cover nyc mocha"
+    "coverage": "cross-env BABEL_ENV=cover nyc mocha",
+    "release": "node Makefile.js releaseLatest"
   },
   "dependencies": {
     "pako": "^1.0.6"
