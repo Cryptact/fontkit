@@ -10,7 +10,8 @@
     "make": "node Makefile.js",
     "clean": "node Makefile.js clean",
     "test": "MODULE_TYPE=commonjs mocha",
-    "coverage": "cross-env BABEL_ENV=cover nyc mocha"
+    "coverage": "cross-env BABEL_ENV=cover nyc mocha",
+    "release": "node Makefile.js releaseLatest"
   },
   "dependencies": {
     "pako": "^1.0.6"
