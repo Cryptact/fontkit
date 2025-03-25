@@ -79,7 +79,8 @@ target.releaseNext = () => {
 
 target.releaseLatest = async () => {
   const currentBranch = exec('git rev-parse --abbrev-ref HEAD').stdout.trim();
-  if (currentBranch !== 'master') {
+  console.log(`Current branch: ${currentBranch}`);
+  if (!process.env.GITHUB_ACTIONS && currentBranch !== 'master') {
     console.error('Must be on `master` branch to cut an @latest release.');
     return;
   }
